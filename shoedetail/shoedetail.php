@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Detail</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div id="content" class="row">
+    <div class="row">
         <div class="col-md-6">
             <img class="mySlides w3-animate-opacity" src="golden_age_titans-1366x768.jpg">
             <img class="mySlides w3-animate-opacity" src="guardian_of_the_stars-1366x768.jpg">
@@ -25,7 +25,7 @@
         </div>
         <div class="col-md-3">
             <form method="" action="">
-                <h3 class="shoename">Giày cao gót mũi nhọn trang trí đường chỉ nổi</h3>
+                <h4 class="shoename">Giày cao gót mũi nhọn trang trí đường chỉ nổi</h4>
                 <h5 class="shoeid">Mã SP: CG09052</h5>
                 <p class="price">390.000<sup>đ</sup></p>
     <!--            <h4>Chọn màu</h4>-->
@@ -59,7 +59,7 @@
                     <span>sản phẩm trên 300.000đ</span>
                 </li>
                 <li>
-                    <h4><img src="icon-pay.png"> Đổi trả miễn phí</h4>
+                    <h4><img src="icon-day90.png"> Đổi trả miễn phí</h4>
                     <span>đổi trả miễn phí 90 ngày</span>
                 </li>
                 <li>
@@ -68,8 +68,12 @@
                 </li>
             </ul>
         </div>
+        <hr>
+    </div>
+    <br><br>
+    <div class="row">
         <div class="col-md-12">
-            <h2>Thông số kỹ thuật</h2>
+            <h3>Thông số kỹ thuật</h3>
             <div class="col-md-6">
                 <img src="injustice_2_batman-1366x768.jpg">
             </div>

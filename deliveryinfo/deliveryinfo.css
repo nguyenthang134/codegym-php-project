@@ -1,0 +1,15 @@
+body{
+    margin: 0px 0px 50px 0px;
+}
+.row{
+    margin: 10px 50px;
+}
+
+form input, select{
+    margin-top: 20px;
+}
+
+table td{
+    width: 500px;
+}
+

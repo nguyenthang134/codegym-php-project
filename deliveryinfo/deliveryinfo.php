@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="row">
-        <div class="col-sm-6">
-            <h3>Thông tin giao hàng</h3>
-            <form action="" method="">
+    <form action="" method="">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Thông tin giao hàng</h3>
                 <input type="text" class="w3-input w3-border w3-round" name="phoneNumber" placeholder="Số điện thoại">
                 <input type="text" class="w3-input w3-border w3-round" name="name" placeholder="Họ và tên">
                 <input type="text" class="w3-input w3-border w3-round" name="email" placeholder="Email">
@@ -48,49 +48,78 @@
                 <label>Thanh toán khi nhận hàng</label>
                 <br><input type="radio" class="w3-radio" value="b" name="b">
                 <label>Thanh toán qua chuyển khoản</label>
-                <br>
-                <div class="row">
-                   <div class="col-md-6">
-                       <a href=""><h4>&#10094; Giỏ hàng</a></h4>
-                   </div>
-                    <div class="col-md-6">
-                        <button type="submit" class="w3-btn w3-large w3-blue">Hoàn tất đơn hàng</button>
+            </div>
+            <div class="col-md-6">
+                <div id="order">
+                    <div class="product row">
+                        <div class="img-detail col-md-4">
+                            <img class="w3-round-large" src="jungle_lion-1366x768.jpg" alt="jungle_lion">
+                            <span class="badge">2</span>
+                        </div>
+                        <div class="text-detail col-md-6">
+                            <h5>Giày búp bê mũi nhọn khoét eo</h5>
+                            <h5>BB01079</h5>
+                            <h6>35</h6>
+                        </div>
+                        <div class="price-detail col-md-2">
+                            <h4>189.000<sup>đ</sup></h4>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="product row">
+                        <div class="img-detail col-md-4">
+                            <img class="w3-round-large" src="guardian_of_the_stars-1366x768.jpg" alt="guardian">
+                            <span class="badge">1</span>
+                        </div>
+                        <div class="text-detail col-md-6">
+                            <h5>Giày búp bê mũi nhọn khoét eo</h5>
+                            <h5>BB01079</h5>
+                            <h6>35</h6>
+                        </div>
+                        <div class="price-detail col-md-2">
+                            <h4>189.000<sup>đ</sup></h4>
+                        </div>
                     </div>
                 </div>
-            </form>
-            <hr>
-        </div>
-        <div class="col-md-6">
-            <div></div>
-            <hr>
-            <div>
-                <input type="text" name="discountCode" placeholder="Mã giảm giá">
-                <label><button class="w3-btn w3-green" value="">Sử dụng</button> </label>
-            </div>
-            <hr>
-            <div>
-                <table>
-                    <tr>
-                        <td>Tạm tính</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Phí vận chuyển</td>
-                        <td>Miễn phí</td>
-                    </tr>
-                </table>
-            </div>
-            <hr>
-            <div>
-                <table>
-                    <tr>
-                        <td><h4>Tổng cộng</h4></td>
-                        <td></td>
-                    </tr>
-                </table>
+                <hr>
+                <div class="row">
+                    <input class="w3-border input-sm" size="20"  type="text" name="discount" placeholder="Mã giảm giá">
+                    <label><button class="w3-btn w3-green w3-round" value="">Sử dụng</button></label>
+                </div>
+                <hr>
+                <div class="row">
+                    <table>
+                        <tr>
+                            <td>Tạm tính</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Phí vận chuyển</td>
+                            <td style="font-weight: bold">Miễn phí</td>
+                        </tr>
+                    </table>
+                </div>
+                <hr>
+                <div class="row">
+                    <table>
+                        <tr>
+                            <td><h4>Tổng cộng</h4></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <a href=""><h4>&#10094; Giỏ hàng</a></h4>
+            </div>
+            <div class="col-md-6">
+                <button type="submit" class="w3-btn w3-round w3-large w3-blue" style="padding: 10px 70px">Hoàn tất đơn hàng</button>
+            </div>
+        </div>
+    </form>
 </body>
 </html>
 
